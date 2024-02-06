@@ -5,7 +5,7 @@ import ProdutoVitrine from "../../components/produto-vitrine/produto-vitrine"
 function Home() {
     return (
         <div>
-            <Navbar />
+            <Navbar showMenu={true} />
 
 
             <div className="container">
